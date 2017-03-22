@@ -1,0 +1,18 @@
+﻿<Window xmlns:Views1="clr-namespace:HelloWorldModule.Views;assembly=HelloWorldModule"  xmlns:Views="clr-namespace:MyModule.Views;assembly=MyModule"  x:Class="HelloWorld.Shell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:cal="http://www.codeplex.com/prism"
+    Title="Hello World" Height="300" Width="300">
+
+    <Grid>
+        <StackPanel>
+            <Views1:HelloWorldView Background="Red" />
+            <Views:MyModule Background="Blue" />
+            <Views1:HelloWorldView Background="Red" />
+            <Views:MyModule Background="Blue" />
+            <Views1:HelloWorldView Background="Red" />
+            <Views:MyModule Background="Blue" />
+        </StackPanel>
+        <Label>Test</Label>
+    </Grid>
+</Window>
